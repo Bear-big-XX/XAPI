@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78a86c20-cfb2-4ca8-8d31-4c401d05333c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/src/main/java/com/xx/xagentsdk/XAgentSDKConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/src/main/java/com/xx/xagentsdk/client/XClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/src/main/java/com/xx/xagentsdk/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/src/main/java/com/xx/xagentsdk/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent-sdk/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/XAgentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/client/XClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/controller/NameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/controller/NameControllerFromSDK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/main/MainFromSDK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/java/com/xx/xagent/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-agent/src/test/java/com/xx/xagent/XAgentApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/sql/jszg.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/annotation/AuthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/aop/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/common/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/common/IdRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/constant/FileConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/UserInterfaceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/mapper/PostThumbMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/mapper/UserInterfaceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/interfaceInfo/InterfaceInfoInvokeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/user/UserAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/userinterfaceinfo/UserInterfaceInfoAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/userinterfaceinfo/UserInterfaceInfoQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/userinterfaceinfo/UserInterfaceInfoUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/entity/InterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/entity/UserInterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/enums/InterInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/provider/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/provider/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/InterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/UserInterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/impl/UserInterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/InterfaceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/UserInterfaceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/MainApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/service/UserInterfaceInfoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-frontend/src/pages/InterfaceInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-frontend/src/pages/TableList/components/CreateModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/src/main/java/com/xx/CustomGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/src/main/java/com/xx/XGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/src/main/java/com/xx/provider/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../x-gateway/src/test/java/com/xx/XGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/entity/InterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/entity/PostFavour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/entity/PostThumb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/entity/UserInterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/enums/InterInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/vo/LoginUserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/model/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/service/InterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/service/UserInterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/doc/db.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/sql/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/sql/ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/aop/AuthInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/common/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/common/IdRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/common/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/config/Knife4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/constant/UserConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/controller/AnalysisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/controller/InterfaceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/controller/UserInterfaceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/mapper/InterfaceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/mapper/PostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/mapper/UserInterfaceInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/interfaceinfo/InterfaceInfoAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/interfaceinfo/InterfaceInfoInvokeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/interfaceinfo/InterfaceInfoQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/interfaceinfo/InterfaceInfoUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/post/PostAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/post/PostDoThumbRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/post/PostQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/post/PostUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/userinterfaceinfo/UserInterfaceInfoAddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/userinterfaceinfo/UserInterfaceInfoQueryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/userinterfaceinfo/UserInterfaceInfoUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/enums/InterfaceInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/enums/PostGenderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/enums/PostReviewStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/vo/InterfaceInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/vo/PostVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/provider/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/provider/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/InterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/UserInterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/InterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/UserInterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/inner/InnerInterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/inner/InnerUserInterfaceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/service/impl/inner/InnerUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/mapper/InterfaceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/mapper/UserInterfaceInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/test/java/com/yupi/project/service/UserInterfaceInfoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/test/java/com/yupi/project/service/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/src/main/java/com/yupi/yuapiclientsdk/YuApiClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/src/main/java/com/yupi/yuapiclientsdk/client/YuApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/src/main/java/com/yupi/yuapiclientsdk/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/src/main/java/com/yupi/yuapiclientsdk/utils/SignUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-client-sdk/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/entity/UserInterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/enums/InterfaceInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/enums/PostGenderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/enums/PostReviewStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/vo/PostVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/service/InnerInterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/service/InnerUserInterfaceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/service/InnerUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/src/main/java/com/yupi/project/provider/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/src/main/java/com/yupi/yuapigateway/CustomGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/src/main/java/com/yupi/yuapigateway/YuapiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-gateway/src/test/java/com/yupi/yuapigateway/YuapiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/src/main/java/com/yupi/yuapiinterface/YuapiInterfaceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/src/main/java/com/yupi/yuapiinterface/aop/InvokeCountAOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/src/main/java/com/yupi/yuapiinterface/controller/NameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-interface/src/test/java/com/yupi/yuapiinterface/YuapiInterfaceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/sql/create_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/sql/create_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/sql/interface_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/sql/interface_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/annotation/AuthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/annotation/AuthCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/aop/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/aop/AuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/aop/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/aop/LogInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/common/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/common/DeleteRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/common/DeleteRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/common/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/common/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/common/PageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/common/ResultUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/config/CosClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/config/CosClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/config/JsonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/config/JsonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/config/WxOpenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/config/WxOpenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/constant/CommonConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/constant/CommonConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/constant/FileConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/constant/UserConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/constant/UserConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/InterfaceInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/InterfaceInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/PostFavourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/PostFavourController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/PostThumbController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/PostThumbController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/controller/WxMpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/controller/WxMpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/esdao/PostEsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/esdao/PostEsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/exception/ThrowUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/exception/ThrowUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/generate/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/generate/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/job/cycle/IncSyncPostToEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/job/cycle/IncSyncPostToEs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/job/once/FullSyncPostToEs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/job/once/FullSyncPostToEs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/manager/CosManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/manager/CosManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/mapper/InterfaceInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/mapper/InterfaceInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/mapper/PostFavourMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/mapper/PostFavourMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/mapper/PostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/mapper/PostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/mapper/PostThumbMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/file/UploadFileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/file/UploadFileRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/interfaceInfo/InterfaceInfoAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/interfaceInfo/InterfaceInfoAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/interfaceInfo/InterfaceInfoQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/interfaceInfo/InterfaceInfoQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/interfaceInfo/InterfaceInfoUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/interfaceInfo/InterfaceInfoUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/post/PostAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/post/PostAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/post/PostEditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/post/PostEditRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/post/PostEsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/post/PostEsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/post/PostQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/post/PostQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/post/PostUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/post/PostUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/postfavour/PostFavourAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/postfavour/PostFavourAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/postfavour/PostFavourQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/postfavour/PostFavourQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/postthumb/PostThumbAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/postthumb/PostThumbAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/user/UserAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/user/UserAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/user/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/user/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/user/UserQueryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/user/UserQueryRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/user/UserRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/src/main/java/com/yupi/project/model/dto/user/UserRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateMyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/user/UserUpdateMyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/dto/user/UserUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/entity/InterfaceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yuapi-backend-c52760d51aa0aaaf04acb52837627d111ecbd4bc/yuapi-common/src/main/java/com/yupi/yuapicommon/model/entity/InterfaceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/entity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/entity/PostFavour.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/entity/PostFavour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/entity/PostThumb.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/entity/PostThumb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/enums/FileUploadBizEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/enums/FileUploadBizEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/enums/UserRoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/enums/UserRoleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/vo/LoginUserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/vo/LoginUserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/vo/PostVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/vo/PostVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/model/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/model/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/InterfaceInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/PostFavourService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/PostFavourService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/PostThumbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/PostThumbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xx/xapicommon/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/impl/InterfaceInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/impl/PostFavourServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/impl/PostFavourServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/impl/PostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/impl/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/impl/PostThumbServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/service/impl/PostThumbServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/utils/NetUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/utils/NetUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/utils/SpringContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/utils/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/utils/SqlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/utils/SqlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/wxmp/WxMpConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/wxmp/WxMpConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/wxmp/WxMpMsgRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/wxmp/WxMpMsgRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/wxmp/handler/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/wxmp/handler/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/wxmp/handler/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/wxmp/handler/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/java/com/yupi/springbootinit/wxmp/handler/SubscribeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/java/com/xx/wxmp/handler/SubscribeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/PostFavourMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/PostFavourMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/PostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/PostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/PostThumbMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/PostThumbMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/TemplateController.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/TemplateController.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/TemplateService.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/TemplateService.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/TemplateServiceImpl.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/TemplateServiceImpl.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateAddRequest.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateAddRequest.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateEditRequest.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateEditRequest.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateQueryRequest.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateQueryRequest.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateUpdateRequest.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateUpdateRequest.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateVO.java.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/main/resources/templates/model/TemplateVO.java.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/MainApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/manager/CosManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/manager/CosManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/mapper/PostFavourMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/mapper/PostFavourMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/mapper/PostMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/mapper/PostMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/service/PostFavourServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/service/PostFavourServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/service/PostThumbServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/service/PostThumbServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-backend/src/test/java/com/yupi/springbootinit/utils/EasyExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../x-backend/src/test/java/com/xx/utils/EasyExcelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/config/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/config/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/config/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/access.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/access.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/components/RightContent/AvatarDropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/components/RightContent/AvatarDropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/components/RightContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/components/RightContent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/global.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/global.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/pages/404.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/pages/Admin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/pages/Admin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/pages/TableList/components/UpdateForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/pages/TableList/components/UpdateForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/pages/TableList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/pages/TableList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/pages/User/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/pages/User/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/pages/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/pages/Welcome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/requestErrorConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/requestErrorConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x-frontend/src/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../x-frontend/src/typings.d.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Env/JAR/apache-maven-3.9.6-bin/apache-maven-3.9.6" />
+        <option name="userSettingsFile" value="D:\E\Env\JAR\apache-maven-3.9.6-bin\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2of9qXXDAcv0AM2iRP7MekZizAA" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/E/code/my/x-OpenAPI/xapi-common/src/main/java/com/xx/xapicommon/service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\E\code\my\x-OpenAPI\xapi-common\src\main\java\com\xx\xapicommon\service" />
+      <recent name="D:\E\code\my\x-OpenAPI\xapi-common\src\main\java\com\xx\xapicommon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xx.xapicommon.service" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a86c20-cfb2-4ca8-8d31-4c401d05333c" name="Changes" comment="" />
+      <created>1731249953981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731249953981</updated>
+      <workItem from="1731249955002" duration="2089000" />
+      <workItem from="1731333295017" duration="2022000" />
+      <workItem from="1731932346952" duration="3180000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

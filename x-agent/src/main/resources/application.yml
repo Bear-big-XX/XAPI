@@ -1,0 +1,18 @@
+spring:
+  application:
+    name:
+      x-agent
+server:
+  port: 8889
+  servlet:
+    context-path: /xapi
+
+datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/my_db
+  username: root
+  password: 123456
+x:
+  agent:
+    access-key: 123
+    secret-key: 456
